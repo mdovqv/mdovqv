@@ -17,58 +17,58 @@ public class Projeto {
         magic.setInteligencia(1);
         
         Cartas magic1 = new Cartas();
-        magic.setNome ("A2 - Ragnaros");
-        magic.setAtaque(8);
-        magic.setDef(8);
-        magic.setInteligencia(8);
+        magic1.setNome ("A2 - Ragnaros");
+        magic1.setAtaque(8);
+        magic1.setDef(8);
+        magic1.setInteligencia(8);
         
         Cartas magic2 = new Cartas();
-        magic.setNome ("A3 - Demonarca");
-        magic.setAtaque(5);
-        magic.setDef(7);
-        magic.setInteligencia(3);
+        magic2.setNome ("A3 - Demonarca");
+        magic2.setAtaque(5);
+        magic2.setDef(7);
+        magic2.setInteligencia(3);
         
         Cartas magic3 = new Cartas();
-        magic.setNome ("A4 - Leeroy Jenkins");
-        magic.setAtaque(7);
-        magic.setDef(2);
-        magic.setInteligencia(7);
+        magic3.setNome ("A4 - Leeroy Jenkins");
+        magic3.setAtaque(7);
+        magic3.setDef(2);
+        magic3.setInteligencia(7);
         
         Cartas magic4 = new Cartas();
-        magic.setNome ("A5 - Reno Jakson");
-        magic.setAtaque(4);
-        magic.setDef(5);
-        magic.setInteligencia(9);
+        magic4.setNome ("A5 - Reno Jakson");
+        magic4.setAtaque(4);
+        magic4.setDef(5);
+        magic4.setInteligencia(9);
         
         Cartas magic5 = new Cartas();
-        magic.setNome ("A6 - Kazakus");
-        magic.setAtaque(3);
-        magic.setDef(6);
-        magic.setInteligencia(10);
+        magic5.setNome ("A6 - Kazakus");
+        magic5.setAtaque(3);
+        magic5.setDef(6);
+        magic5.setInteligencia(10);
         
         Cartas magic6 = new Cartas();
-        magic.setNome ("A7 - Antonidas");
-        magic.setAtaque(7);
-        magic.setDef(5);
-        magic.setInteligencia(10);
+        magic6.setNome ("A7 - Antonidas");
+        magic6.setAtaque(7);
+        magic6.setDef(5);
+        magic6.setInteligencia(10);
         
         Cartas magic7 = new Cartas();
-        magic.setNome ("A8 - Growmash");
-        magic.setAtaque(10);
-        magic.setDef(8);
-        magic.setInteligencia(4);
+        magic7.setNome ("A8 - Growmash");
+        magic7.setAtaque(10);
+        magic7.setDef(8);
+        magic7.setInteligencia(4);
         
         Cartas magic8 = new Cartas();
-        magic.setNome ("A09 - Shaku");
-        magic.setAtaque(5);
-        magic.setDef(8);
-        magic.setInteligencia(5);
+        magic8.setNome ("A09 - Shaku");
+        magic8.setAtaque(5);
+        magic8.setDef(8);
+        magic8.setInteligencia(5);
         
         Cartas magic9 = new Cartas();
-        magic.setNome ("A10 - Raza");
-        magic.setAtaque(5);
-        magic.setDef(8);
-        magic.setInteligencia(6);
+        magic9.setNome ("A10 - Raza");
+        magic9.setAtaque(5);
+        magic9.setDef(8);
+        magic9.setInteligencia(6);
         
         List<Cartas> listaCartas = new ArrayList();
         
