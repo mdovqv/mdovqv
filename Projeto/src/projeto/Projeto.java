@@ -7,68 +7,28 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Projeto {
-
-   
+ 
+    
     public static void main(String[] args) {
-        Cartas magic = new Cartas();
-        magic.setNome ("A1 - Seyjin");
-        magic.setAtaque(5);
-        magic.setDef(3);
-        magic.setInteligencia(1);
+        Cartas magic = new Cartas("A1 - Seyjin", 5, 3, 1);
         
-        Cartas magic1 = new Cartas();
-        magic1.setNome ("A2 - Ragnaros");
-        magic1.setAtaque(8);
-        magic1.setDef(8);
-        magic1.setInteligencia(8);
+        Cartas magic1 = new Cartas("A2 - Ragnaros", 8, 8, 8);
         
-        Cartas magic2 = new Cartas();
-        magic2.setNome ("A3 - Demonarca");
-        magic2.setAtaque(5);
-        magic2.setDef(7);
-        magic2.setInteligencia(3);
+        Cartas magic2 = new Cartas("A3 - Demonarca", 5, 7, 3);
         
-        Cartas magic3 = new Cartas();
-        magic3.setNome ("A4 - Leeroy Jenkins");
-        magic3.setAtaque(7);
-        magic3.setDef(2);
-        magic3.setInteligencia(7);
+        Cartas magic3 = new Cartas("A4 - Leeroy Jenkins", 7, 2, 7);
         
-        Cartas magic4 = new Cartas();
-        magic4.setNome ("A5 - Reno Jakson");
-        magic4.setAtaque(4);
-        magic4.setDef(5);
-        magic4.setInteligencia(9);
+        Cartas magic4 = new Cartas("A5 - Reno Jakson", 4, 5, 9);
+      
+        Cartas magic5 = new Cartas("A6 - Kazakus", 3, 6, 10);
+                
+        Cartas magic6 = new Cartas("A7 - Antonidas", 7, 5, 10);
+       
+        Cartas magic7 = new Cartas("A8 - Growmash", 10, 8, 4);
         
-        Cartas magic5 = new Cartas();
-        magic5.setNome ("A6 - Kazakus");
-        magic5.setAtaque(3);
-        magic5.setDef(6);
-        magic5.setInteligencia(10);
+        Cartas magic8 = new Cartas("A09 - Shaku", 5, 8, 5);
         
-        Cartas magic6 = new Cartas();
-        magic6.setNome ("A7 - Antonidas");
-        magic6.setAtaque(7);
-        magic6.setDef(5);
-        magic6.setInteligencia(10);
-        
-        Cartas magic7 = new Cartas();
-        magic7.setNome ("A8 - Growmash");
-        magic7.setAtaque(10);
-        magic7.setDef(8);
-        magic7.setInteligencia(4);
-        
-        Cartas magic8 = new Cartas();
-        magic8.setNome ("A09 - Shaku");
-        magic8.setAtaque(5);
-        magic8.setDef(8);
-        magic8.setInteligencia(5);
-        
-        Cartas magic9 = new Cartas();
-        magic9.setNome ("A10 - Raza");
-        magic9.setAtaque(5);
-        magic9.setDef(8);
-        magic9.setInteligencia(6);
+        Cartas magic9 = new Cartas("A10 - Raza", 5, 8, 6);
         
         List<Cartas> listaCartas = new ArrayList();
         

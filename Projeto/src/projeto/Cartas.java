@@ -7,6 +7,14 @@ public class Cartas {
     private int ataque;
     private int def;
     private int inteligencia;
+    
+    public Cartas(String nome, int ataque, int def, int inteligencia) { //método construtor
+    this.nome=nome;
+    this.ataque=ataque;
+    this.def=def;
+    this.inteligencia=inteligencia;
+    }
+    
 
     public String getNome() {
         return nome;
